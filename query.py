@@ -1,7 +1,7 @@
 import sqlite3
 import time
 
-# Ensure the databas name is correct and in the correct folder 
+# Ensure the database name is correct and in the correct folder 
 
 conn = sqlite3.connect("feedback.db")
 cursor = conn.cursor()
